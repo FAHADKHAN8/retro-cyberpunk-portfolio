@@ -7,6 +7,7 @@ export const siteIdentity = {
   codingProfile: "https://takeuforward.org/profile/fahad_8",
   location: "India",
   positioning: "Software engineer focused on backend development and practical AI systems.",
+  siteUrl: "https://retro-cyberpunk-portfolio.vercel.app",
   resumePath: "/resume.pdf",
   resumeFilename: "Mohammad_Fahad_Khan_Resume.pdf",
 } as const;
@@ -17,6 +18,7 @@ export const navigation = [
   { label: "Experience", href: "/#experience" },
   { label: "Projects", href: "/projects" },
   { label: "Skills", href: "/#skills" },
+  { label: "Blog", href: "/blog" },
   { label: "Contact", href: "/contact" },
 ] as const;
 
